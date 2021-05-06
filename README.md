@@ -21,7 +21,7 @@ This website promotes product (IBM-Typewritter) that was on the market before th
  - [ ] VS Code Editor
 
 ## Screenshots
-
+Home page screen shots
 ![1](https://user-images.githubusercontent.com/75551627/117322944-73ebf580-ae5c-11eb-94d9-1f71590be8ea.JPG)
 
 ![2](https://user-images.githubusercontent.com/75551627/117322964-777f7c80-ae5c-11eb-9fe4-369bd3ecdc7a.JPG)
