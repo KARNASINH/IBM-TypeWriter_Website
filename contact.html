@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Declared Meta Tag with charset attribute, UTF-8 character encoding for this HTML Document-->
+   <meta charset="UTF-8">
+
+   <!-- Declared Meta tag, To give a short description about web page-->
+   <meta name="Description" content="This web page contains information for contact details of the company ">
+
+   <!-- Declared Meta tag, search engine crawler does not index this webpage, does not follow page and link on it -->
+   <meta name="Robots" content="noindex, nofollow">
+   
+   <!-- To make webpage responsive-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- Adding CSS file -->
+   <link rel="stylesheet" href="./css/styles.css">
+      
+   <!-- Added JavaScript file -->
+   <script src="./js/index.js"></script>
+
+   <!-- Title of the webpage -->
+   <title>Company Contact deatails</title>
+</head>
+
+<body>
+   <!-- To get header data from JS file -->
+   <header></header>
+
+   <!-- Main section of the webpage -->
+   <main class="container contactwhole">
+
+      <!-- 1st section of the webpage, upper part -->
+      <section class="formheading">         
+         <div class="contactgeneral">
+            <h1>Need more assistance?</h1>
+            <!-- Contact details in line -->
+            <h4>Call ‒ Canada: 800-769-2511 -or- use the contact form.</h4>
+            <hr/>
+         </div>
+      </section>
+
+      <!-- 2nd section, contains form for inquiry -->
+      <section class="aboutbody">
+
+            <!-- Asterisks, for compulsary data input -->
+            <h4 ><u>Asterisks (*) indicate fields required to complete this contact form.</u></h4>
+         
+         <form action="" method=""></form>
+            <!-- Actual form starts -->
+            <!-- Personal details -->
+            <div>
+               First name:<span class="asterisks">*</span><input type = "text" name = "first_name" value="Enter here..."/>
+               <br><br>
+               Last name:<span class="asterisks">*</span><input type = "text" name = "last_name"  value="Enter here..."/>
+               <br><br>
+            </div>            
+            <!-- Contact information -->
+            <div>
+               Mobile Number:<span class="asterisks">*</span><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </div>
+            </br>
+            <div>
+               <!--Dropdown menu for inquiry type-->
+               <label id="inquiry">Inquiry Categoty<span class="asterisks">*</span></label>
+               <select id = "inquirytype" name = "inquirytype">
+                  <!-- Different options -->
+                  <option value = "--" selected="selected" selected>----------------</option>
+                  <option value = "Typewriter">Typewriter</option>
+                  <option value = "Computer">Computer</option>
+                  <option value = "Software">Software</option>
+                  <option value = "Medial Player">Medial Player</option>
+                  <option value = "Jobs at IBM">Jobs at IBM</option>
+                  <option value = "Policies">Policies</option>
+                  <option value = "Unsubscribe">Unsubscribe</option>
+                  <option value = "Others">Others</option>               
+               </select>
+            </div>
+            <br>
+            <div>
+               <!--Dropdown menu for inquiry type-->
+               <label id="inquirytype">Inquiry Type<span class="asterisks">*</span></label>
+               <select id = "inquirytype" name = "inquirytype">
+                  <!-- Different options -->
+                  <option value = "--" selected="selected" selected>----------------</option>
+                  <option value = "phonecall">Phone Call</option>
+                  <option value = "inperson">In Person</option>               
+               </select>
+            </div>
+            <br>
+            <div>
+               <!--Counter for in person visit-->
+               <label id="visiting">Number of Person visiting <span class="asterisks">*</span></label>
+               <!-- Increament / Decreament menu type -->
+               <input type="number" id="person" name="person" min="0" max="4">
+            </div>            
+            </br>
+            <div>
+               <label id="quantity">Contact Person</label>
+               <!-- Radio buttons -->
+               <input type="radio" id="sales" name="sales" value="sales">
+               <label>Sales Person</label>
+               <input type="radio" id="manager" name="manager" value="manager">
+               <label>Sales Manager</label>
+               <input type="radio" id="branchmanager" name="branchmanager" value="branchmanager">
+               <label>Branch Manager</label>
+             </div>
+            </br>
+            <div>
+               <!--Text box for special cooking instruction-->
+               Message </br>
+               <!-- Message box to provide extra information -->
+               <textarea rows = "8" cols = "50" name = "coocking_instruction">Enter your message here...</textarea>
+            </div>
+            </br>
+            <div class="submit">
+               <!--Order fomr submission and reset buttons-->
+               <input  type = "submit" name = "submit" value = "Submit" />
+            </div>
+      </select>
+         </form>
+         <!-- Form finish -->
+      </section>
+   </main>
+
+   <!-- Including data from the Javascript file  -->
+   <footer></footer>
+</body>
+</html>
